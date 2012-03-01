@@ -1,0 +1,209 @@
+*
+{
+ margin:0px;
+}
+ 
+body
+{
+  font-family:tahoma;
+  font-size:90%;
+  
+}
+
+
+.main
+{
+  text-align:left;
+  margin-left:50px;
+  margin-right:50px;
+  
+  border:1px solid black;
+  width: 1024px;
+   
+}
+
+
+.header
+{
+   height:100px;
+   background:url(back.png);
+   color:white; 
+}
+
+.menu
+{
+  padding:4px; 
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  background:url(menuback.png);
+ 
+}
+
+
+
+.menu a
+{
+  color:white;
+  text-decoration:none;
+}
+
+.menu a:hover
+{
+   text-decoration:underline;
+}
+.leftpane
+{
+  float:left;
+  width:20%;
+} 
+
+.rightpane
+{
+  float:right;
+  width:77%;
+  min-height:500px;
+  height:100%;
+  border-left:1px solid black; 
+  padding:10px 0px 0px 20px;
+}
+
+.footer
+{
+  font-size:80%;
+   background:url(back.png);
+  color:white;
+  text-align:center;
+  height:100px;
+}
+
+
+.form
+{
+   padding:10px;
+   display:table;
+   border:1px outset gray;
+   border-radius:10px;
+}
+
+.form h1
+{
+   font-size:16px;
+   margin-bottom:20px;
+   border-bottom:1px solid gray; 
+}
+
+.form input[type="text"]
+{
+  padding-left:4px;
+  border:1px dotted gray;
+}
+
+.form textarea
+{
+  padding-left:4px;
+  border:1px dotted gray;
+}
+
+.form select
+{
+  padding-left:4px;
+  border:1px dotted gray;
+}
+
+.form input[type="password"]
+{
+  padding-left:4px;
+  border:1px dotted gray;
+}
+
+.form input[type="submit"]
+{
+  
+  background:url(menuback.png);
+  border:1px outset black;
+  border-radius:4px;
+  padding:3px 7px 3px 7px;
+  color:white;
+  font-size:76%;
+}
+
+.title
+{
+  padding:4px; 
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  background:url(menuback.png);
+  color:white;
+}
+
+.leftpane td
+{
+   border-bottom:1px dotted gray; 
+}
+
+.leftpane td:hover
+{
+   border-bottom:1px dotted gray; 
+   background:lightblue;
+}
+
+.leftpane a
+{
+  text-decoration:none;
+  color:navy;
+}
+
+.nav
+{
+  padding:4px;
+  border-bottom:3px double black;
+  margin-bottom:4px;
+}
+.nav input
+{
+  background:white;
+  color:navy;
+  padding:4px;
+  border:1px outset silver;
+}
+
+.nav .active
+{
+  background:url(menuback.png);
+  color:white;
+  padding:4px;
+  border:1px outset silver;
+}
+ 
+.table
+{
+   font-size:80%;
+   border:1px solid black;
+}
+
+.table th
+{
+  background:url(menuback.png);
+  color:white;
+  padding:6px;
+}
+
+.table input[type="submit"]
+{
+  background:url(menuback.png);
+  border:1px solid black;
+  color:white;
+  border-radius:5px;
+  font-size:86%;
+  alt:'test';
+}
+
+.table td
+{
+  border-left:1px solid black;
+}
+
+.table tr:nth-child(odd)
+{
+   background:silver;
+}
