@@ -101,9 +101,6 @@
   </div>
 </c:if>
 
-<c:if test="${param.nav=='List'}"> 
-  <jsp:include page="empprofilelist.jsp"/>
-</c:if>
-
+ 
   
 <%@ include file="footer.jsp"%>

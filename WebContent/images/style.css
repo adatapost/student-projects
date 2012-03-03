@@ -16,18 +16,17 @@ body
   text-align:left;
   margin-left:50px;
   margin-right:50px;
-  
   border:1px solid black;
-  width: 1024px;
-   
+   width:1024px; 
 }
 
 
 .header
 {
    height:100px;
-   background:url(back.png);
-   color:white; 
+   background:url(logo.jpg);
+   color:blue;
+   text-align:center;    
 }
 
 .menu
